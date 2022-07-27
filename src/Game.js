@@ -5,7 +5,7 @@ import Confetti from 'react-confetti'
 import scoreDownloader from './utils/ScoreDownloader'
 import './style.css'
 
-export default function App() {
+export default function Game() {
     const [level, setLevel] = React.useState(1)
     const [time, setTime] = React.useState(0);
     const [title, setTitle] = React.useState("Numberino")
