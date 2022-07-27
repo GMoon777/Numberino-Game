@@ -1,8 +1,8 @@
 import React from 'react'
-import Die from './components/Die'
+import Die from './Die'
 import { nanoid } from 'nanoid'
 import Confetti from 'react-confetti'
-import scoreDownloader from './utils/ScoreDownloader'
+import scoreDownloader from '../utils/ScoreDownloader'
 import './style.css'
 
 export default function Game() {
