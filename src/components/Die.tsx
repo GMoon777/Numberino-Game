@@ -1,6 +1,15 @@
 import React from 'react'
+import { DieProps } from '../utils/interfaces'
 
-export default function Die(props) {
+
+interface DieCompProps extends DieProps {
+    holdDice: any;
+    gameState: string;
+    time: number;
+ }
+  
+
+export function Die(props: DieCompProps) {
       const styles = {
         backgroundColor: props.isHeld ? "#59E391" : "white"
     }
